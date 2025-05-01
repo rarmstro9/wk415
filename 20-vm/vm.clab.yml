@@ -12,7 +12,7 @@ topology:
       startup-config: configs/srl.cfg
     sros:
       kind: nokia_sros
-      image: vrnetlab/nokia_sros:24.7.R1
+      image: 34.147.135.20/library/nokia_sros:24.7.R1
       mgmt-ipv4: 192.168.122.102
       license: /home/nokiauser/images/sros-24.lic
       startup-config: configs/sros.partial.cfg
